@@ -22,4 +22,4 @@ This repository contains a transparent sample landing page for home cleaning bus
 
 ## Current status
 
-No clients have been contacted and no income has been earned through this project yet. See `prospects.md` for researched leads and draft messages.
+The sample is live at https://devrajj-14.github.io/clearhome-quote-demo/ . Outreach is tracked privately. No client work or income is claimed by this demo.
