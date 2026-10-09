@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A demonstration quote-request website for a home cleaning business. Not an operating cleaning company.">
+  <title>ClearHome | Home cleaning website demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-banner">Website demo · Example business · No bookings are taken here</div>
+  <header class="site-header wrap">
+    <a class="brand" href="#top" aria-label="ClearHome demo home"><span class="brand-mark">✳</span> ClearHome<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#services">Services</a><a href="#how">How it works</a><a href="#quote">Get a quote</a></nav>
+    <a class="header-cta" href="#quote">Request a quote <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> CHENNAI HOME CLEANING · DEMO</div>
+        <h1>A cleaner home.<br><em>Less back-and-forth.</em></h1>
+        <p>Choose what you need, share a few details, and send a ready-made quote request through WhatsApp. Simple for your customers. Clear for your team.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#quote">Get a cleaning quote <span aria-hidden="true">↗</span></a><a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note"><span class="note-icon">✓</span><span>Built as a sample for local service businesses</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card"><span class="art-spark">✦</span><div class="art-window"><div class="art-sun"></div><div class="art-pane"></div></div><div class="art-sofa"><div class="sofa-back"></div><div class="sofa-seat"></div><div class="sofa-leg left"></div><div class="sofa-leg right"></div></div><div class="art-plant"><span>✳</span></div><div class="art-floor"></div></div>
+        <div class="float-card"><span class="float-icon">✦</span><span>Fresh spaces<br><strong>start here.</strong></span></div>
+      </div>
+    </section>
+    <section class="trust-strip"><div class="wrap strip-inner"><span>DESIGNED FOR A FASTER ENQUIRY</span><span>01 <strong>Clear services</strong></span><span>02 <strong>Short form</strong></span><span>03 <strong>WhatsApp handoff</strong></span></div></section>
+    <section id="services" class="services wrap section-pad"><div class="section-head"><div><span class="kicker">WHAT YOU CAN BOOK</span><h2>Cleaning for the spaces<br>that matter most.</h2></div><p>A concise service menu helps visitors find the right option without digging through a long page.</p></div><div class="service-grid"><article class="service-card"><span class="service-icon">⌂</span><span class="service-num">01 / HOME</span><h3>Home deep cleaning</h3><p>For a thorough reset of living areas, bedrooms, and shared spaces.</p><a href="#quote" data-service="Home deep cleaning">Ask for a quote <span aria-hidden="true">↗</span></a></article><article class="service-card"><span class="service-icon">◧</span><span class="service-num">02 / KITCHEN</span><h3>Kitchen & bathroom</h3><p>Focused attention for high-use rooms that need extra care.</p><a href="#quote" data-service="Kitchen and bathroom cleaning">Ask for a quote <span aria-hidden="true">↗</span></a></article><article class="service-card"><span class="service-icon">▧</span><span class="service-num">03 / OFFICE</span><h3>Office cleaning</h3><p>Enquire about one-time or regular cleaning for your workspace.</p><a href="#quote" data-service="Office cleaning">Ask for a quote <span aria-hidden="true">↗</span></a></article></div></section>
+    <section id="how" class="how-section"><div class="wrap how-grid"><div><span class="kicker">HOW IT WORKS</span><h2>From enquiry to<br><em>conversation.</em></h2><p>The visitor describes the job once. The business receives the details in a WhatsApp message and can reply with availability and pricing.</p></div><ol><li><span>01</span><div><h3>Pick a service</h3><p>Choose the type of cleaning needed.</p></div></li><li><span>02</span><div><h3>Add the essentials</h3><p>Share area, property size, and preferred timing.</p></div></li><li><span>03</span><div><h3>Send on WhatsApp</h3><p>Review the prepared message before sending.</p></div></li></ol></div></section>
+    <section id="quote" class="quote-section wrap section-pad"><div class="quote-intro"><span class="kicker">QUICK QUOTE REQUEST</span><h2>Tell us what<br>needs cleaning.</h2><p>This is a demonstration form. The live version would connect to the client’s WhatsApp number.</p><div class="quote-decoration" aria-hidden="true">✳</div></div><form id="quote-form" class="quote-form"><label for="service">Service</label><select id="service" name="service" required><option value="">Select a service</option><option>Home deep cleaning</option><option>Kitchen and bathroom cleaning</option><option>Office cleaning</option><option>Other cleaning request</option></select><label for="area">Area in Chennai</label><input id="area" name="area" placeholder="e.g. Adyar" maxlength="80" required><label for="size">Property size or job details</label><input id="size" name="size" placeholder="e.g. 2 BHK apartment" maxlength="120" required><label for="timing">Preferred timing</label><input id="timing" name="timing" placeholder="e.g. This weekend" maxlength="80"><button class="button button-primary" type="submit">Preview WhatsApp request <span aria-hidden="true">↗</span></button><p class="form-help">No information is stored or sent by this demo.</p><div id="preview" class="preview" hidden><strong>Your message is ready</strong><p id="preview-text"></p><p>In a client version, this would open a WhatsApp chat with the business number.</p></div></form></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span class="brand">✳ ClearHome<span class="brand-dot">.</span></span><span>Portfolio demo for a local cleaning business · Not a real service</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
